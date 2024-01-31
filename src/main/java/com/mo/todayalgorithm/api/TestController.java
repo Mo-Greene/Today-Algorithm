@@ -19,6 +19,6 @@ public class TestController {
 
     @GetMapping("")
     public String versionCheck() {
-        return "Jenkins Test : Version 0.0.3";
+        return "Jenkins Test : Version 0.0.4";
     }
 }
