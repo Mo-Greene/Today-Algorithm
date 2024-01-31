@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/today_algorithm
+    username: 'mogreene'
+    password: '1234'
+
+  jpa:
+    hibernate:
+      ddl-auto: validate #create/create-drop/update
+    show-sql: false
+    open-in-view: false #fixed
+    properties:
+      hibernate:
+        default_batch_fetch_size: 1000
+    defer-datasource-initialization: false
